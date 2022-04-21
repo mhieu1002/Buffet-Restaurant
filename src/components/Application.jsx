@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import app from "../assets/images/app.jpg";
+import app from "../assets/images/app.png";
 import phone from "../assets/images/icon_phone.jpg";
 import box from "../assets/images/icon_box.jpg";
 import check from "../assets/images/icon_checkin.jpg";
