@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.height {
+  height: 100%;
+}
+
+.margin {
+  margin: 25px 0;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.black {
+  color: #000 !important;
+}
+
+.white {
+  background-color: #fff !important;
+}
+
+.width50 {
+  width: 50% !important;
+}

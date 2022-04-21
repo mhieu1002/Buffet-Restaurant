@@ -1,0 +1,65 @@
+.recruit {
+  width: 100%;
+  background-color: #faf6ed;
+
+  .apply__img {
+    margin: 50px 0;
+    height: 100%;
+  
+    img {
+      width: 100%;
+      float: right;
+    }
+  }
+
+  .apply__content {
+    padding-top: 180px;
+    height: 100%;
+
+    @include tablet {
+      padding-top: 100px;
+    }
+
+    @include mobile {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      margin-left: 20px;
+      padding-top: 8px;
+      font-size: 35px;
+      text-transform: uppercase;
+      color: #e5b419;
+      font-style: italic;
+      font-weight: bold;
+      font-family: SF-heavey;
+    }
+
+    h3 {
+      margin-top: 25px;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #e5b419;
+      font-style: italic;
+      font-weight: bold;
+      font-family: SF-heavey;
+    }
+
+    button {
+      border: 1px solid #000;
+      background-color: #faf6ed;
+      padding: 6px 36px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 25px;
+      margin-left: 180px;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+}
+

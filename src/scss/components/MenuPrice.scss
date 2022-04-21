@@ -1,0 +1,42 @@
+.menu__price {
+  width: 100%;
+
+  &-title {
+    display: flex;
+    justify-content: center;
+
+    span {
+      padding: 10px 20px;
+      font-size: 16px;
+      text-transform: uppercase;
+      background-color: #2a2a2a;
+      color: #fff;
+      border: 1px solid #2a2a2a;
+
+      @include tablet {
+        font-size: 14px;
+        padding: 8px 16px
+      }
+
+      @include mobile {
+        font-size: 12px;
+        padding: 6px 12px;
+      }
+    }
+
+    &-place {
+      background-color: #fff !important;
+      color: #2a2a2a !important; 
+      cursor: pointer;
+    }
+
+    span ~ span {
+      margin-left: 8px;
+    }
+  }
+
+  img { 
+    padding-top: 12px;
+    width: 100%;
+  }
+}

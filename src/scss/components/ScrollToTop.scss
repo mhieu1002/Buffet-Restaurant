@@ -1,0 +1,19 @@
+.button__scroll {
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  font-size: 25px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  img {
+    margin-top: -3px;
+    height: 35%;
+  }
+}

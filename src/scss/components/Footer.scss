@@ -1,0 +1,171 @@
+.footer {
+  height: auto;
+
+  &__start {
+    height: 44px;
+    background-color: #000;
+  }
+
+  &__register {
+    min-height: 94px;
+    background-color: #eeedee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include tablet {
+      padding: 8px 0;
+    }
+
+    &-social {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include tablet {
+        margin-bottom: 4px;
+        display: block;
+      }
+      
+      a {
+        cursor: pointer;
+
+        img {
+          width: 35px;
+
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+
+        .ins__logo {
+          width: 25px;
+        }
+      }
+    }
+
+    &-input {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include tablet {
+        display: block;
+        margin-left: 10px;
+
+        span {
+          display: block;
+          margin-bottom: 10px;
+        }
+      }
+
+      span {
+        color: #573333;
+        font-weight: 700;
+        font-size: 14px;
+        cursor: text;
+      }
+
+      input {
+        font-weight: 700;
+        width: 35%;
+        margin-left: 30px;
+        padding: 8px;
+
+        @include tablet {
+          margin-left: 0;
+          width: 35%;
+        }
+
+        @include medium {
+          width: 45%;
+        }
+
+        @include mobile {
+          width: 55%;
+        }
+        
+        &::placeholder {
+          color: #000;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      button {
+        margin-left: 1px;
+        border: none;
+        padding: 8px 18px;
+        background-color: #222122;
+
+        &:hover {
+          margin-left: 0px;
+          border: solid #000 1px;
+        }
+        
+        span {
+          text-transform: uppercase;
+          color: #fff;
+          cursor: pointer;
+
+          @include tablet {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  &__main {
+    min-height: 238px;
+    background-color: #222122;
+
+    @include tablet {
+      padding-bottom: 12px;
+    }
+
+    @include mobile {
+      padding-left: 12px;
+    }
+
+    &-items {
+      height: 100%;
+      padding-top: 36px;
+      
+      &-title {
+        color: #ffffea;
+        text-transform: uppercase;
+        font-size: 13px;
+        cursor: text;
+      }
+
+      &-content {
+        margin-top: 16px;
+        line-height: 1.5;
+
+        &-text {
+          font-size: 12px;
+          color: #ffffff99;
+
+          &:hover {
+            color: #fff;
+            text-decoration-line: underline;
+          }
+        }
+      }
+    }
+  }
+
+  &__end {
+    height: 126px;
+    background-color: #000;
+
+    @include tablet {
+      height: 63px;
+    }
+  }
+}

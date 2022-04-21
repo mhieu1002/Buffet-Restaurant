@@ -1,0 +1,66 @@
+.application {
+  padding-bottom: 50px;
+
+  @include tablet {
+    padding-bottom: 0;
+  }
+}
+
+.app__img {
+  margin: 50px 0;
+  height: 100%;
+
+  @include tablet {
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100%;
+    float: right;
+  }
+}
+
+.app__store {
+  margin: 50px 0;
+  height: 100%;
+
+  @include tablet {
+    margin: 10px 0;
+  }
+
+  h3 {
+    margin-left: 12px;
+    padding-top: 8px;
+    color: #333;
+  }
+
+  div {
+    margin-top: 24px;
+    padding-left: 8px;
+
+    img {
+      margin-left: 12px;
+    }
+
+    span {
+      margin-left: 8px;
+      font-weight: 600;
+      font-size: 16px;
+      color: #7C245B;
+    }
+  }
+
+  div ~ div {
+    margin-top: 12px;
+  }
+
+  a {
+    cursor: pointer;
+    
+    img {
+      width: 130px;
+      height: 40px;
+      margin-left: 8px;
+    }
+  }
+}

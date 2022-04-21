@@ -1,0 +1,46 @@
+.mobile__list {
+  display: none;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  background-color: #f4f4f4;
+  width: 100%;
+
+  @include medium {
+    display: block;
+  }
+
+  &-set {
+    margin-top: 20px;
+  }
+
+  &-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 150px;
+      max-height: 55px;
+      opacity: 0.4;
+      
+      &:hover {
+        opacity: 1;
+      }
+
+      @include mobile{
+        max-width: 120px;
+        max-height: 45px;
+      }
+    }
+  }
+}
+
+.icon__sumo-set {
+  width: 120px;
+  height: auto;
+
+  @include mobile{
+    width: 100px;
+    height: auto;
+  }
+}
